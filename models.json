@@ -1,0 +1,245 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "formula one",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DriverStandingIntent",
+                    "slots": [
+                        {
+                            "name": "Driver",
+                            "type": "Drivers"
+                        }
+                    ],
+                    "samples": [
+                        "How many points has {Driver}"
+                    ]
+                },
+                {
+                    "name": "LatestWinnerIntent",
+                    "slots": [],
+                    "samples": [
+                        "Who won the latest race"
+                    ]
+                },
+                {
+                    "name": "NextRaceIntent",
+                    "slots": [],
+                    "samples": [
+                        "When is the next race"
+                    ]
+                },
+                {
+                    "name": "FormulaOneSoundIntent",
+                    "slots": [],
+                    "samples": [
+                        "What is the sound of a Formula One car"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Drivers",
+                    "values": [
+                        {
+                            "id": "alonso",
+                            "name": {
+                                "value": "Fernando Alonso",
+                                "synonyms": [
+                                    "Alonso"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "hülkenberg",
+                            "name": {
+                                "value": "Nico Hülkenberg",
+                                "synonyms": [
+                                    "Hülkenberg"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "ocon",
+                            "name": {
+                                "value": "Esteban Ocon",
+                                "synonyms": [
+                                    "Ocon"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "leclerc",
+                            "name": {
+                                "value": "Charles Leclerc",
+                                "synonyms": [
+                                    "Leclerc"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "ericsson",
+                            "name": {
+                                "value": "Marcus Ericsson",
+                                "synonyms": [
+                                    "Ericsson"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "vandoorne",
+                            "name": {
+                                "value": "Stoffel Vandoorne",
+                                "synonyms": [
+                                    "Vandoorne"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "gasly",
+                            "name": {
+                                "value": "Pierre Gasly",
+                                "synonyms": [
+                                    "Gasly"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "ricciardo",
+                            "name": {
+                                "value": "Daniel Ricciardo",
+                                "synonyms": [
+                                    "Ricciardo"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "bottas",
+                            "name": {
+                                "value": "Valtteri Bottas",
+                                "synonyms": [
+                                    "Bottas"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "stroll",
+                            "name": {
+                                "value": "Lance Stroll",
+                                "synonyms": [
+                                    "Stroll"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "hartley",
+                            "name": {
+                                "value": "Brendon Hartley",
+                                "synonyms": [
+                                    "Hartley"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "magnussen",
+                            "name": {
+                                "value": "Kevin Magnussen",
+                                "synonyms": [
+                                    "Magnussen"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "grosjean",
+                            "name": {
+                                "value": "Romain Grosjean",
+                                "synonyms": [
+                                    "Grosjean"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "pérez",
+                            "name": {
+                                "value": "Sergio Pérez",
+                                "synonyms": [
+                                    "Pérez"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "räikkönen",
+                            "name": {
+                                "value": "Kimi Räikkönen",
+                                "synonyms": [
+                                    "Räikkönen"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "vettel",
+                            "name": {
+                                "value": "Sebastian Vettel",
+                                "synonyms": [
+                                    "Vettel"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "sirotkin",
+                            "name": {
+                                "value": "Sergey Sirotkin",
+                                "synonyms": [
+                                    "Sirotkin"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "hamilton",
+                            "name": {
+                                "value": "Lewis Hamilton",
+                                "synonyms": [
+                                    "Hamilton"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "sainz",
+                            "name": {
+                                "value": "Carlos Sainz",
+                                "synonyms": [
+                                    "Sainz"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "verstappen",
+                            "name": {
+                                "value": "Max Verstappen",
+                                "synonyms": [
+                                    "Verstappen"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
